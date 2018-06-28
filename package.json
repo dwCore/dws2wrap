@@ -1,0 +1,24 @@
+{
+  "name": "@dwcore/dws2wrap",
+  "version": "0.1.1",
+  "description": "dwStreams Wrapper For Node's Readable-Streams `ReadableStream`, Facilitating The Creation Of Readable dwStreams That Pragmatically Handle [Backpressure] Situations When They Arrive In Different dwStream Scenarios.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "readable-stream": "*"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
